@@ -1,0 +1,14 @@
+.curlsys-header{
+    background: url(../images/effect.png) repeat left top;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 40vh;
+    max-height: 40vh;
+    z-index: 99999999 !important;
+    -moz-transition-property: none;
+    -webkit-transition-property: none;
+    -o-transition-property: none;
+    transition-property: none;
+
+}
