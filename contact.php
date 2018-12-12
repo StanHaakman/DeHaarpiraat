@@ -5,12 +5,14 @@
         <h1 class="brand">Contact Mij</h1>
             <div class="wrapper">
                 <div class="company-info">
-                    <h3>Contact Mij</h3>
+                    <h3 id="groot-contact">Wilt u snel contact, dan graag bellen</h3>
                     <ul>
-                        <li>Straat: 12 Piraat</li>
-                        <li>Adres: 1671 RX   Medemblik </li>
+                        <!-- <li id="groot-contact">Wilt u snel contact, dan graag bellen</li> -->
+                        <li>Adres:</li>
+                        <li>Piraat 12</li>
+                        <li>1671 RX Medemblik </li>
                         <li>Telefoon (0227) 724544 </li>
-                        <li>Mail: mirellahaakman@hotmail.com</li>
+                        <li>Mail: <a href="mailto:info@dehaarpiraat.nl">info@dehaarpiraat.nl</a></li>
                         <br>
                         <li>Maandag:                    08:30 - 17:30</li>
                         <li>Dinsdag:                         Gesloten</li>
@@ -67,4 +69,6 @@
     </iframe>
 
 
-<?php include 'footer.php'?>
+<?php 
+include 'footer.php'
+?>

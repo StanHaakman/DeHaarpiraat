@@ -10,7 +10,7 @@
                     <li class="li-klein"><a class="a-klein" href="">Over ons</a></li>
                     <li class="li-klein"><a class="a-klein" href="tarieven.php">Tarieven</a></li>
                     <li class="li-klein"><a class="a-klein" href="">Catalogus</a></li>
-                    <li class="li-klein"><a class="a-klein" href="curlsys.php">Curlsys</a></li>
+                    <li class="li-klein"><a class="a-klein" href="curlsys.php">CURLSYS&reg</a></li>
                     <li class="li-klein"><a class="a-klein" href="">Instagram</a></li>
                     <li class="li-klein"><a class="a-klein" href="contact.php">Contact</a></li>
                 </ul>
@@ -24,7 +24,7 @@
         <li class="li-groot"><a class="a-groot" href="">Over ons</a></li>
         <li class="li-groot"><a class="a-groot" href="tarieven.php">Tarieven</a></li>
         <li class="li-groot"><a class="a-groot" href="tarieven.php">Catalogus</a></li>
-        <li class="li-groot"><a class="a-groot" href="curlsys.php">Curlsys</a></li>
+        <li class="li-groot"><a class="a-groot" href="curlsys.php">CURLSYS&reg</a></li>
         <li class="li-groot"><a class="a-groot" href="">Instagram</a></li>
         <li class="li-groot"><a class="a-groot" href="contact.php">Contact</a></li>
     </ul>
