@@ -9,10 +9,9 @@
         <ul class="menuleft">
             <li class="menuItems"><a class="footer-link" href="index.php">Home</a></li>
             <li class="menuItems"><a class="footer-link" href="#">Over ons</a></li>
-            <li class="menuItems"><a class="footer-link" href="#">Tarvieren</a></li>
-            <li class="menuItems"><a class="footer-link" href="#">Curlsys</a></li>
+            <li class="menuItems"><a class="footer-link" href="tarieven.php">Tarvieren</a></li>
+            <li class="menuItems"><a class="footer-link" href="curlsys.php">CURLSYS&reg</a></li>
             <li class="menuItems"><a class="footer-link" href="#">Instagram</a></li>
-            <li class="menuItems"><a class="footer-link" href="contact.php">Contact</a></li>
         </ul>
     </div>
 

@@ -4,11 +4,74 @@ require 'navbar.php';
 ?>
 
 <main>
-    <div class="wide-img"></div>
+
+<div class="slider" id="slider">
+		<div class="slItems">
+      <div class="slItem" style="background-image: url('images/background1.jpg');">
+			</div>
+			<div class="slItem" style="background-image: url('images/background2.jpg');">
+			</div>
+			<div class="slItem" style="background-image: url('images/background3.jpg');">
+			</div>
+      <div class="slItem" style="background-image: url('images/background4.jpg');">
+			</div>
+      <div class="slItem" style="background-image: url('images/background5.jpg');">
+			</div>
+      <div class="slItem" style="background-image: url('images/background6.jpg');">
+			</div>
+      <div class="slItem" style="background-image: url('images/background7.jpg');">
+			</div>
+      <div class="slItem" style="background-image: url('images/background8.jpg');">
+			</div>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="scripts/slider.min.js"></script>
+	<script>
+	$(function(){
+		$('#slider').rbtSlider({
+			'dots': true,
+			'arrows': true,
+			'auto': 8
+		});
+	});
+	</script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="wide-img"></div> -->
     <div id="description">
         <div id="gc1">
             <div id="desc-container">
-               <h1>De HaarPiraat</h1>
+               <h2>De HaarPiraat</h2>
                <p>
                Welkom bij De HaarPiraat.
 Gezelligheid en aandacht voor het haar én de klanten, daar draait het om bij de HaarPiraat. 

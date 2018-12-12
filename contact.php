@@ -2,7 +2,7 @@
 <?php include 'navbar.php'?>
     <div class="contactform">
 
-        <h1 class="brand">Contact Mij</h1>
+        <h1 class="brand">Neem contact op</h1>
             <div class="wrapper">
                 <div class="company-info">
                     <h3 id="groot-contact">Wilt u snel contact, dan graag bellen</h3>
@@ -12,7 +12,7 @@
                         <li>Piraat 12</li>
                         <li>1671 RX Medemblik </li>
                         <li>Telefoon (0227) 724544 </li>
-                        <li>Mail: <a href="mailto:info@dehaarpiraat.nl">info@dehaarpiraat.nl</a></li>
+                        <li>Mail: <a id="a-contact-mail" href="mailto:info@dehaarpiraat.nl">info@dehaarpiraat.nl</a></li>
                         <br>
                         <li>Maandag:                    08:30 - 17:30</li>
                         <li>Dinsdag:                         Gesloten</li>

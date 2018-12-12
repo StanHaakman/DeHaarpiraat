@@ -33,6 +33,7 @@ body {
     height:auto;
     overflow:hidden;
     background:none;
+    z-index: 1090;
 }
 #nav .nav-gray {
     text-align:center;
@@ -63,11 +64,23 @@ body {
 .button{
     display: none;
     background-color: #fff;
-    padding: 5px 10px;
+    padding: 3px 8px;
     border-radius: 50%;
     margin-right: -10px;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
+.btn-open:hover{
+    text-decoration: none;
+}
+
+.btn-close:hover{
+    text-decoration: none;
+}
 
 /*overlay*/
 .overlay {

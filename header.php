@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/navStyle.css">
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footerStyle.css">
+    <link rel="stylesheet" href="styles/slider.css">
     <link href='styles/style.css' rel='stylesheet' type='text/css'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet">
@@ -23,5 +24,7 @@
 
     <script src="scripts/jquery.js"></script>
     <script src="scripts/script.js"></script>
+
+    <script src="scripts/slider.js"></script>
 </head>
 <body>
