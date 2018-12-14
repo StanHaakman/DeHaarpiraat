@@ -33,9 +33,9 @@
         <h2 class="h2footer">Sociale media</h2>
         <h5 class="h5footer">Waar kunt u ons vinden?</h5>
 
-
+        <h5 class="h5footer">Vind ons ook op instagram</h5>
         <ul class="menuleft">
-            <li><img src="images/haarpiraat.png" alt="Instagram haarpiraat" class="instagramImg"></li>
+            <li><a href="instagram.php" class="instalink"><img src="images/haarpiraat.png" alt="Instagram haarpiraat" class="instagramImg"></a></li>
         </ul>
     </div>
 

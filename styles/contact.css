@@ -9,8 +9,9 @@
 #groot-contact{
     font-size: 20px;
     margin-top: 20px;
-}
-
+}/** {*/
+    /*box-sizing: border-box;*/
+/*}*/
 .contactform {
     max-width: 1170px;
     margin-left: auto;
@@ -46,7 +47,6 @@
 .company-info ul{
     padding: 50px;
 }
-.company-info li{display: block;}
 
 .company-info h3, .company-info ul{
     text-align: center;
@@ -99,7 +99,40 @@ grid-column: 1 / 3;
     transition: background-color 2s ease-out;
 }
 
-/*large screen*/
+/*Google*/
+
+.google-maps {
+    float: left;
+    position: relative;
+    padding-bottom: 5em;
+    height: 0;
+    /*overflow: hidden;*/
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 5em;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.google-360 {
+    float: right;
+    position: relative;
+    padding-bottom: 5em;
+    height: 0;
+    /*overflow: hidden;*/
+}
+
+.google-360 iframe {
+    position: absolute;
+    top: 0;
+    right: 5em;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 
 @media(min-width: 700px) {
 
@@ -119,4 +152,14 @@ grid-column: 1 / 3;
     .company-info h3, .company-info ul, .brand{
         text-align: center;
     }
+    .google-maps {
+        width: 25%;
+        height: 365px;
+
+    }
+    .google-360 {
+        width: 50%;
+        height: 365px;
+    }
+
 }

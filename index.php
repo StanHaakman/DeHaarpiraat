@@ -2,6 +2,9 @@
 require 'header.php';
 require 'navbar.php';
 ?>
+<head>
+  <link rel="stylesheet" href="styles/slider.css">
+</head>
 
 <main>
 
@@ -96,6 +99,8 @@ Ze zijn verkrijgbaar met diverse bedragen of behandelingen.
     </div>
 
 </main>
+
+<script src="scripts/slider.js"></script>
 
 <?php
 require 'footer.php';

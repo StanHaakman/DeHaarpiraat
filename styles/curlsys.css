@@ -1,0 +1,62 @@
+.curlsys-header{
+    background: url(../images/effect.png) repeat left top;
+    /* position: relative; */
+    padding: 0;
+    margin: 0;
+    height: 350px;
+    max-height: 375px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 100vw;
+}
+
+.outline-img{
+    background: url(../images/4x.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 350px;
+    width: 400px;
+}
+
+.curlsys-logo{
+    background: url(../images/curlsys-logo.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 550px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 73em){
+    .curlsys-header{
+        grid-template-columns: auto auto;
+    }
+
+    .curlsys-logo{
+        margin-left: auto;
+        position: center;
+        width: 550px;
+    }
+
+    .outline-img{
+        visibility: hidden;
+        margin-left: 0;
+        width: 0;
+    }
+}
+
+@media screen and (max-width: 50em){
+        .curlsys-header {
+            grid-template-columns: 1fr auto;
+        }
+
+        .outline-img {
+            visibility: visible;
+        }
+
+        .curlsys-logo {
+            visibility: hidden;
+            margin-left: 0;
+            width: 0;
+        }
+}
