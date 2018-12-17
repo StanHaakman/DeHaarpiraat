@@ -10,12 +10,17 @@
     width: 100vw;
 }
 
-.outline-img{
-    background: url(../images/4x.png) no-repeat;
+#outline-img{
+    background: url(../images/2x.png) no-repeat;
     background-size: cover;
     position: relative;
     height: 350px;
     width: 400px;
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
 }
 
 .curlsys-logo{
@@ -38,7 +43,7 @@
         width: 550px;
     }
 
-    .outline-img{
+    #outline-img{
         visibility: hidden;
         margin-left: 0;
         width: 0;
@@ -50,8 +55,9 @@
             grid-template-columns: 1fr auto;
         }
 
-        .outline-img {
+        #outline-img {
             visibility: visible;
+            width: 400px;
         }
 
         .curlsys-logo {
