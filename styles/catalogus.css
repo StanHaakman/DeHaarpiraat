@@ -1,0 +1,52 @@
+  
+  .cover{
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+    margin-bottom: 2em;
+  padding-left: 2rem;
+  }
+  .h {
+    padding: 3rem;
+    text-align:center;
+  }
+
+  .cover .cataimg{
+    display: block;
+  }
+  
+  .cover .article{
+    background: rgba(255,255,255,0.7);
+    width: 300px;
+    height: 300px;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (min-width: 630px) {
+    .Cata{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-around;
+    }
+    .h{
+      grid-column: 1/-1;
+    }
+  }
+  
+  @media screen and (min-width: 930px) {
+    .Cata{
+  
+      grid-template-columns: 1fr 1fr 1fr;
+  
+    }
+  }
+  
+  @media screen and (min-width: 1230px) {
+    .Cata{
+  
+      grid-template-columns:repeat(4, 1fr);
+  
+    }
+  }
+  

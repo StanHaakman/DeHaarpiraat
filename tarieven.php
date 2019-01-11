@@ -3,7 +3,10 @@ require 'header.php';
 require 'navbar.php';
 ?>
 <div class="prijsLijst">
+    <div class="prijslijst-container">
+    <h2>Dit zijn de prijzen van 2018</h2>
     <h2>Algemeen</h2>
+
 <table class="algemeenTable">
     <tr>
         <td class="tableProduct">Wassen</td>
@@ -22,7 +25,7 @@ require 'navbar.php';
         <td class="prices">€ 51,50</td>
     </tr>
     <tr>
-        <td> <?php echo '<br>' ?></td>
+        <td> <?php echo '<hr>' ?></td>
     </tr>
     <tr>
         <td class="tableProduct">Pony knippen</td>
@@ -41,7 +44,7 @@ require 'navbar.php';
         <td class="prices">€ 3,75</td>
     </tr>
     <tr>
-        <td> <?php echo '<br>' ?></td>
+        <td> <?php echo '<hr>' ?></td>
     </tr>
         <tr>
             <td class="tableProduct">Wassen, knippen en drogen</td>
@@ -76,7 +79,7 @@ require 'navbar.php';
             <td class="prices">€ 6,70</td>
         </tr>
         <tr>
-            <td> <?php echo '<br>' ?></td>
+            <td> <?php echo '<hr>' ?></td>
         </tr>
     <tr>
         <td class="tableProduct">Coupe de soleil</td>
@@ -87,7 +90,7 @@ require 'navbar.php';
         <td class="prices">€ 27,00</td>
     </tr>
         <tr>
-            <td> <?php echo '<br>' ?></td>
+            <td> <?php echo '<hr>' ?></td>
         </tr>
         <tr>
             <td class="tableProduct">Lang haar toeslag</td>
@@ -96,7 +99,7 @@ require 'navbar.php';
     </table>
     <br>
     <h2>Permanent behandelingen (incl. wassen/knippen/drogen)</h2>
-    <table class="permanentTable">
+    <table class="permanentTable" id="bottomTable">
         <tr>
             <td class="tableProduct">Permanent</td>
             <td class="prices">€ 75,00</td>
@@ -118,6 +121,8 @@ require 'navbar.php';
             <td class="prices">€ 57,00</td>
         </tr>
     </table>
+    <br>
+    </div>
 </div>
 <?php
 require 'footer.php';

@@ -8,10 +8,12 @@
 
         <ul class="menuleft">
             <li class="menuItems"><a class="footer-link" href="index.php">Home</a></li>
-            <li class="menuItems"><a class="footer-link" href="#">Over ons</a></li>
-            <li class="menuItems"><a class="footer-link" href="tarieven.php">Tarvieren</a></li>
-            <li class="menuItems"><a class="footer-link" href="curlsys.php">CURLSYS&reg</a></li>
-            <li class="menuItems"><a class="footer-link" href="#">Instagram</a></li>
+            <li class="menuItems"><a class="footer-link" href="curlsys.php">Curlsys</a></li>
+            <li class="menuItems"><a class="footer-link" href="#">Great Lengths</a></li>
+            <li class="menuItems"><a class="footer-link" href="catalogus.php">Catalogus</a></li>            
+            <li class="menuItems"><a class="footer-link" href="tarieven.php">Tarieven</a></li>
+            <li class="menuItems"><a class="footer-link" href="instagram.php">Instagram</a></li>
+            <li class="menuItems"><a class="footer-link" href="contact.php">Contact</a></li>
         </ul>
     </div>
 
@@ -33,9 +35,9 @@
         <h2 class="h2footer">Sociale media</h2>
         <h5 class="h5footer">Waar kunt u ons vinden?</h5>
 
-        <h5 class="h5footer">Vind ons ook op instagram</h5>
+
         <ul class="menuleft">
-            <li><a href="instagram.php" class="instalink"><img src="images/haarpiraat.png" alt="Instagram haarpiraat" class="instagramImg"></a></li>
+            <li><img src="images/haarpiraat.png" alt="Instagram haarpiraat" class="instagramImg"></li>
         </ul>
     </div>
 
@@ -54,8 +56,8 @@
     </div>
 </div>
 
-</body>
-</html>
+
+
 
 
 

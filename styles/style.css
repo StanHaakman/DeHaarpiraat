@@ -46,22 +46,7 @@ body{
 
 p {font-size: 22px;}
 
-/*Google maps en 360 Graden*/
-/*.Go {*/
-    /*width: 50%;*/
-    /*height: 363px;*/
-    /*border: none;*/
-    /*float: right;*/
-    /*margin-bottom: 10em;*/
-    /*margin-right: 10em;*/
-/*}*/
 
-/*.map {*/
-    /*width: 25%;*/
-    /*height: 363px;*/
-    /*border:0;*/
-    /*margin-left: 10em;*/
-/*}*/
 .prijsLijst {
     padding-top: 100px;
     font-size: 18px;
@@ -71,6 +56,45 @@ p {font-size: 22px;}
 .algemeenTable, .kleurTable, .permanentTable {
     background-color: #d3d3d3;
     width: 100%;
+}
+
+.prijsLijst {
+    padding-top: 100px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.prijslijst-container {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    margin-right: 340px;
+}
+
+
+.algemeenTable,
+.kleurTable,
+.permanentTable {
+    background-color: #d3d3d3;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#bottomTable {
+    margin-bottom: 2em;
+}
+
+.tableProduct,
+.prices {
+    padding-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.prices {
+    padding-left: 20px;
+    width: 15%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -85,6 +109,7 @@ p {font-size: 22px;}
     /* KICK */
     .prijsLijst {
         padding: 10px;
+        width: 100%;
     }
 
     .tableProduct {
@@ -92,7 +117,9 @@ p {font-size: 22px;}
         left: 10px;
     }
 
-    .algemeenTable, .kleurTable, .permanentTable {
+    .algemeenTable,
+    .kleurTable,
+    .permanentTable {
         background-color: #d3d3d3;
         font-size: 16px;
         width: 100%;
@@ -104,9 +131,13 @@ p {font-size: 22px;}
         text-align: left;
         padding: 0 5px;
     }
-    
+
     .tableTitle {
         float: left;
+    }
+
+    .prijslijst-container {
+        width: 94.5%;
     }
 }
 
