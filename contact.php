@@ -60,10 +60,9 @@
     </div>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9491.52932155905!2d5.099476839083594!3d52.761788722690106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82b57f8b33e81f37!2sDe+HaarPiraat!5e0!3m2!1snl!2snl!4v1543491225228"
-            class="map" frameborder="0" allowfullscreen></iframe>
+            class="google-maps" frameborder="0" allowfullscreen></iframe>
 
-    <iframe class="framebox inherit-locale Go"
-            style=""
+    <iframe class="framebox inherit-locale google-360 "
             src="https://www.google.com/maps/embed?pb=!4v1541593605780!6m8!1m7!1sCAoSLEFGMVFpcE9Lc0Z3RlpNclljajlhYVFyVVQxb2dyaGMwM1FFRWJIR0V0NGVE!2m2!1d52.761783875067!2d5.099458182356!3f112.78530989877571!4f-6.884206240899701!5f0.7820865974627469"
             id="google_maps--view">
     </iframe>
