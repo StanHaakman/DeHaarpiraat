@@ -75,7 +75,7 @@ require 'navbar.php';
         <div id="gc1">
             <div id="desc-container">
 
-               <h2>De HaarPiraat</h2>
+               <!-- <h2>De HaarPiraat</h2> -->
                <p>
                Welkom bij De HaarPiraat.
 Gezelligheid en aandacht voor het haar én de klanten, daar draait het om bij de HaarPiraat. 

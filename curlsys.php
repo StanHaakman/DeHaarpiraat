@@ -7,7 +7,7 @@ include 'navbar.php';
 <main>
     <div class="curlsys-header">
     <div class="curlsys-logo">
-
+        
     </div>
 
     <div id="outline-img">
