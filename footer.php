@@ -10,7 +10,6 @@
             <li class="menuItems"><a class="footer-link" href="index.php">Home</a></li>
             <li class="menuItems"><a class="footer-link" href="curlsys.php">Curlsys</a></li>
             <li class="menuItems"><a class="footer-link" href="#">Great Lengths</a></li>
-            <li class="menuItems"><a class="footer-link" href="catalogus.php">Catalogus</a></li>            
             <li class="menuItems"><a class="footer-link" href="tarieven.php">Tarieven</a></li>
             <li class="menuItems"><a class="footer-link" href="instagram.php">Instagram</a></li>
             <li class="menuItems"><a class="footer-link" href="contact.php">Contact</a></li>
