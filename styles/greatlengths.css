@@ -11,7 +11,7 @@
 }
 
 #outline-img {
-    background: url(../images/1x.png) no-repeat;
+    background: url(../images/kleuren-extentions.JPG) no-repeat;
     background-size: cover;
     position: relative;
     height: 350px;
@@ -22,7 +22,36 @@
     background: url(../images/great-lengths-logo.png) no-repeat;
     background-size: cover;
     position: relative;
-    width: 25vw;
+    width: 780px;
     height: 350px;
     /* margin-left: 100px; */
+}
+
+.container{
+
+}
+
+
+
+@media screen and (max-width: 73em) {
+    .greatlengths-header {
+        grid-template-columns: auto auto;
+    }
+
+    .greatlengths-logo {
+    margin-left: auto;
+        position: center;
+    }
+}
+
+@media screen and (max-width: 50em) {
+    .greatlengths-header {
+        grid-template-columns: 1fr auto;
+    }
+
+    .greatlengths-logo {
+        visibility: hidden;
+        margin-left: 0;
+        width: 0;
+    }
 }
