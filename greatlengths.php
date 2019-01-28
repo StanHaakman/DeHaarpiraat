@@ -8,11 +8,11 @@
 
     </div>
     </a>
-    <a href="https://www.curlsys.nl/index.php" target="_blank">
+    <!-- <a href="https://www.curlsys.nl/index.php" target="_blank">
     <div id="outline-img">
         
     </div>
-    </a>
+    </a> -->
     </div>
 
     <div class="container">

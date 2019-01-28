@@ -1,25 +1,24 @@
 .greatlengths-header {
-    background: url(../images/effect.png) repeat left top;
+    /* background: url(../images/effect.png) repeat left top; */
     /* position: relative; */
     padding: 0;
     margin: 0;
     height: 350px;
     max-height: 375px;
-    display: grid;
-    grid-template-columns: 1fr auto;
     width: 100vw;
+    background-color: black;
 }
 
-#outline-img {
+/* #outline-img {
     background: url(../images/kleuren-extentions.JPG) no-repeat;
     background-size: cover;
     position: relative;
     height: 350px;
     width: 400px;
-}
+} */
 
 .greatlengths-logo {
-    background: url(../images/great-lengths-logo.png) no-repeat;
+    background: url(../images/greatlengths-logo.jpg) no-repeat;
     background-size: cover;
     position: relative;
     width: 780px;
@@ -34,9 +33,9 @@
 
 
 @media screen and (max-width: 73em) {
-    .greatlengths-header {
+    /* .greatlengths-header {
         grid-template-columns: auto auto;
-    }
+    } */
 
     .greatlengths-logo {
     margin-left: auto;
@@ -45,9 +44,9 @@
 }
 
 @media screen and (max-width: 50em) {
-    .greatlengths-header {
+    /* .greatlengths-header {
         grid-template-columns: 1fr auto;
-    }
+    } */
 
     .greatlengths-logo {
         visibility: hidden;
