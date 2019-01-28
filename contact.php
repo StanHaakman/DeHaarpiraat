@@ -14,13 +14,13 @@
                         <li>Telefoon (0227) 724544 </li>
                         <li>Mail: <a id="a-contact-mail" href="mailto:info@dehaarpiraat.nl">info@dehaarpiraat.nl</a></li>
                         <br>
-                        <li>Maandag:                    08:30 - 17:30</li>
-                        <li>Dinsdag:                         Gesloten</li>
-                        <li>Woensdag: 08:30 - 13:00 / 18:00 - 22:00  </li>
-                        <li>Donderdag:                 18:00 - 22:00 </li>
-                        <li>Vrijdag:                    08:30 - 17:30</li>
-                        <li>Zaterdag:                        Gesloten</li>
-                        <li>Zondag:                          Gesloten</li>
+                        <li><span>Maandag:</span>                     08:30 - 17:30</li>
+                        <li><span>Dinsdag:</span>                          Gesloten</li>
+                        <li><span>Woensdag:</span>    08:30 - 13:00 / 18:00 - 22:00</li>
+                        <li><span>Donderdag:</span>                  18:00 - 22:00 </li>
+                        <li><span>Vrijdag:</span>                     08:30 - 17:30</li>
+                        <li><span>Zaterdag:</span>                         Gesloten</li>
+                        <li><span>Zondag:</span>                           Gesloten</li>
                     </ul>
                 </div>
                 <div class="contact">
