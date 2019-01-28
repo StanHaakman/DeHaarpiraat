@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/contact.css">
     <link rel="stylesheet" href="styles/footerStyle.css">
     <link rel="stylesheet" href="styles/curlsys.css">
+    <link rel="stylesheet" href="styles/greatlengths.css">
     <link rel="stylesheet" href="styles/insta.css">
     <link rel="stylesheet" href="styles/catalogus.css">
 
