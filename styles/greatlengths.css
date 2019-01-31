@@ -1,21 +1,13 @@
 .greatlengths-header {
     /* background: url(../images/effect.png) repeat left top; */
     /* position: relative; */
-    padding: 0;
     margin: 0;
+    padding: 0;
     height: 350px;
     max-height: 375px;
     width: 100vw;
     background-color: black;
 }
-
-/* #outline-img {
-    background: url(../images/kleuren-extentions.JPG) no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 350px;
-    width: 400px;
-} */
 
 .greatlengths-logo {
     background: url(../images/greatlengths-logo.jpg) no-repeat;
@@ -23,34 +15,11 @@
     position: relative;
     width: 780px;
     height: 350px;
+    /* padding: 0 25vw; */
+    margin: 0 25vw;
     /* margin-left: 100px; */
 }
 
 .container{
 
-}
-
-
-
-@media screen and (max-width: 73em) {
-    /* .greatlengths-header {
-        grid-template-columns: auto auto;
-    } */
-
-    .greatlengths-logo {
-    margin-left: auto;
-        position: center;
-    }
-}
-
-@media screen and (max-width: 50em) {
-    /* .greatlengths-header {
-        grid-template-columns: 1fr auto;
-    } */
-
-    .greatlengths-logo {
-        visibility: hidden;
-        margin-left: 0;
-        width: 0;
-    }
 }
