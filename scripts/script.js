@@ -12,7 +12,7 @@ $(document).ready(function () {
     $('ul.nav-gray a').filter(function() {
         return this.href == url;
     }).parent().addClass('active');
-    console.log(url.pathname);
+    // console.log(url.pathname);
 });
 
 

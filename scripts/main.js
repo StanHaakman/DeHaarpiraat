@@ -5,6 +5,7 @@ $(document).ready(function() {
 
     let btnInstafeedLoad = document.getElementById("btn-instafeed-load");
     let insta1 = document.getElementById("instafeed");
+    let insta2 = document.getElementById("lastInstaPost");
 
     let instafeed = new Instafeed({
         get: 'user',
@@ -122,7 +123,9 @@ $(document).ready(function() {
         instafeedProfile.run();
         instafeed.run();
     }
-    instafeedLastPost.run();
+    if(insta2) {
+        instafeedLastPost.run();
+    }
 });
 
 window.onload = resizeAllGridItems;
