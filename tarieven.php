@@ -8,7 +8,7 @@ require 'navbar.php';
 
 <table class="algemeenTable">
     <tr>
-        <td class="tableProduct">Wasmessage</td>
+        <td class="tableProduct">Wasmassage</td>
         <td class="prices">€ 4,00</td>
     </tr>
     <tr>
