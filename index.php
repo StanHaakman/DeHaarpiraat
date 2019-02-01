@@ -40,34 +40,11 @@ require 'navbar.php';
           'auto': 8
       });
   });
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
 
 </script>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="wide-img"></div> -->
     <div id="description">
         <div id="gc1">
             <div id="desc-container">
@@ -86,7 +63,8 @@ require 'navbar.php';
                </p>
             </div>
         </div>
-<!--        <div class="home-omschrijving-grid">-->
+
+
             <div class="omschrijving-homepage">
                 <h2 class="homepageTitle">Informatie</h2>
                     <h3 class="importantInfo">Wilt u snel contact, dan graag bellen</h3>
@@ -107,12 +85,11 @@ require 'navbar.php';
                         <li>Zondag:                          Gesloten</li>
                     </ul>
                 </div>
-<!--        </div>-->
     </div>
 
 </main>
 
-<script src="scripts/slider.js"></script>
+<script src="scripts/slider.js">
 
 
 
