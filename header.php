@@ -32,7 +32,7 @@
     <script src="scripts/jquery.js"></script>
     <script src="scripts/script.js"></script>
 
-    <script src="https://unpkg.com/ionicons@4.4.7/dist/ionicons.js%22%3E"></script>
+    <!-- <script src="https://unpkg.com/ionicons@4.4.7/dist/ionicons.js%22%3E"></script> -->
     <script src="scripts/main.js"></script>
     <script src="scripts/instafeed.min.js"></script>
 
