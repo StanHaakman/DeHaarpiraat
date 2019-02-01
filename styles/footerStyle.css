@@ -76,6 +76,10 @@ a {
     padding: 4px;
 }
 
+div#lastInstaPost{
+    text-align: center;
+}
+
 .instagramImg {
     width: 170px;
 }

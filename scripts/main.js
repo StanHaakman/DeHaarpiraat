@@ -4,6 +4,7 @@ let useridhaarpiraat = '6258864564';
 $(document).ready(function() {
 
     let btnInstafeedLoad = document.getElementById("btn-instafeed-load");
+    let insta1 = document.getElementById("instafeed");
 
     let instafeed = new Instafeed({
         get: 'user',
@@ -78,11 +79,13 @@ $(document).ready(function() {
     });
 
 
+    if(btnInstafeedLoad) {
+        // de load more button die meer foto's laten zien
+        btnInstafeedLoad.addEventListener("click", function () {
+            instafeed.next();
+        });
+    }
 
-    // de load more button die meer foto's laten zien
-    btnInstafeedLoad.addEventListener("click", function() {
-        instafeed.next();
-    });
 
     //laat de gebruiksnaam zien.
     let instafeedProfile = new Instafeed({
@@ -102,10 +105,24 @@ $(document).ready(function() {
         '</div>',
     });
 
-
-
-    instafeedProfile.run();
-    instafeed.run();
+    let instafeedLastPost = new Instafeed({
+        get: 'user',
+        userId: useridhaarpiraat, // de userid of the account
+        target: "lastInstaPost", // where the data will be sent
+        resolution: 'thumbnail',   // the size of the picture
+        accessToken: accesstokenHaarpiraat, // the code that you need to get access of your account
+        limit:1,
+        sortBy: 'most-recent',
+        template:
+            '<a href="instagram.php" target="_blank">' +
+            '<img src="{{image}}"  alt="{{caption}}" class="instagramImg"/>' +
+            '</a>',
+});
+    if (insta1) {
+        instafeedProfile.run();
+        instafeed.run();
+    }
+    instafeedLastPost.run();
 });
 
 window.onload = resizeAllGridItems;

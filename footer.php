@@ -34,10 +34,7 @@
         <h2 class="h2footer">Sociale media</h2>
         <h5 class="h5footer">Waar kunt u ons vinden?</h5>
 
-
-        <ul class="menuleft">
-            <li><img src="images/haarpiraat.png" alt="Instagram haarpiraat" class="instagramImg"></li>
-        </ul>
+        <div id="lastInstaPost"></div>
     </div>
 
     <div class="menus">

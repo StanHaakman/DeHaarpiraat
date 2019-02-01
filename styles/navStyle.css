@@ -59,6 +59,11 @@ body {
     border-bottom: 4px #cc0033 inset;
 }
 
+#nav .nav-gray .li-groot .active {
+    transition: all .2s ease-in-out;
+    border-bottom: 4px #cc0033 inset;
+}
+
 
 /*styling open close button*/
 .button{

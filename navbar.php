@@ -24,6 +24,6 @@
         <li class="li-groot"><a class="a-groot" href="contact.php">Contact</a></li>
     </ul>
     <div class="button">
-        <a class="btn-open" style="text-decoration: 0;" href="#"></a>
+        <a class="btn-open" style="text-decoration: none;" href="#"></a>
     </div>
 </nav>

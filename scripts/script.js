@@ -2,10 +2,18 @@ $(document).ready(function () {
     $(".btn-open").on('click', function (e) {
         // e.stopPropagation();
         $(".overlay").fadeToggle(400);
-        console.log("hoi");
         $(this).toggleClass('btn-open').toggleClass('btn-close');
+
     });
 
+
+    let url = window.location;
+    $('ul.nav-gray a[href="'+ url.pathname +'"]').parent().addClass('active');
+    $('ul.nav-gray a').filter(function() {
+        console.log(this.href);
+        return this.href == url.href;
+    }).parent().addClass('active');
+    console.log(url.pathname);
 });
 
 
@@ -29,3 +37,4 @@ $(window).on("scroll", function() {
 function mailAlert(){
     alert('Outlook wordt geopend....')
 }
+
