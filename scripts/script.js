@@ -7,12 +7,15 @@ $(document).ready(function () {
 
     });
 
+    let path = window.location.pathname.split('/').pop();
     let url = window.location;
-    $('ul.nav-gray a[href="'+ url.pathname +'"]').parent().addClass('active');
-    $('ul.nav-gray a').filter(function() {
-        return this.href == url;
-    }).parent().addClass('active');
-    // console.log(url.pathname);
+
+    if(path === ''){
+        path = 'index.php'
+    }
+    let target = $('ul.nav-gray a[href="'+ path +'"]');
+    target.addClass('active');
+
 });
 
 
