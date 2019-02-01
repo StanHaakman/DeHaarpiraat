@@ -97,6 +97,36 @@ p {font-size: 22px;}
     width: 15%;
 }
 
+.omschrijving-homepage {
+    width: 25vw;
+    padding: 20px;
+    margin: 20px 40px;
+    -webkit-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.12);
+}
+
+.omschrijving-homepage p {
+    font-size: 18px;
+    padding: 20px
+}
+
+.homepageTitle {
+    font-size: 30px;
+}
+
+.homepageParagraph {
+    font-size: 20px;
+}
+
+.importantInfo {
+    font-size: 20px;
+}
+
+.importantUnorderdList {
+    font-size: 16px;
+}
+
 @media only screen and (max-width: 800px) {
     #description {
         grid-template-columns: auto;
@@ -138,6 +168,10 @@ p {font-size: 22px;}
 
     .prijslijst-container {
         width: 94.5%;
+    }
+    .omschrijving-homepage {
+        width: 260px;
+        margin: 20px 15vw;
     }
 }
 
